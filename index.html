@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div class="container mt-3">
+      <form>
+        <div class="form-group">
+          <label for="guestName">Enter the guest name</label>
+          <input type="text" id="guestName">
+        </div>
+        <div class="form-group">
+          <label for="addEnd">Add guest to the start</label>
+          <input type="button" class="btn btn-primary m-2" value="Add" id="addStart">
+        </div>
+        <div class="form-group">
+          <label for="addEnd">Add guest to the end</label>
+          <input type="button" class="btn btn-primary m-2" value="Add" id="addEnd">
+        </div>
+        <div class="form-group">
+          <label for="removeFirst">Remove first guest</label>
+          <input type="button" class="btn btn-primary m-2" value="Remove" id="removeFirst">
+        </div>
+        <div class="form-group">
+          <label for="removeLast">Remove last guest</label>
+          <input type="button" class="btn btn-primary m-2" value="Remove" id="removeLast">
+        </div>
+        <div class="form-group">
+          <label for="reverseList">Reverse list</label>
+          <input type="button" class="btn btn-primary m-2" value="Reverse" id="reverseList">
+        </div>
+      </form>
+    </div>
+    <div class="container">
+      <ul class="list-group list-group-flush" id="arrPrint">
+      </ul>
+    </div>
+
+    <script src="jScript.js"></script>
+
+  </body>
+</html>
